@@ -1,0 +1,26 @@
+name: Import portfolio video to Releases
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/import-video.yml
+permissions:
+  contents: write
+jobs:
+  import-video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Download and verify the existing public portfolio video
+        env:
+          VIDEO_SOURCE: https://song-film-portfolio.tianweiheng.chatgpt.site/media/video/c0ae932c-9a63-420a-8d39-ffb9d67e5fd5
+        run: |
+          curl --fail --location --retry 3 --max-time 180 "$VIDEO_SOURCE" --output "$RUNNER_TEMP/national-year-end.mp4"
+          echo "9c1ac7ebfe67605c6c1b82df20402fc9fe29a2db6cc092ceee605d927f7dd9c0  $RUNNER_TEMP/national-year-end.mp4" | sha256sum --check
+      - name: Upload the verified video as a Release asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          gh release view videos-v1
+          gh release upload videos-v1 "$RUNNER_TEMP/national-year-end.mp4" --clobber
