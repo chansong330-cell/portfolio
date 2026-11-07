@@ -1,0 +1,6 @@
+# Videos belong in Releases assets, not Git history.
+*.mp4
+*.mov
+*.webm
+*.mkv
+.DS_Store

@@ -1,0 +1,34 @@
+{
+  "profile": {
+    "name": "SONG",
+    "phone": "",
+    "wechat": ""
+  },
+  "github": {
+    "owner": "chansong330-cell",
+    "repository": "portfolio",
+    "tag": "videos-v1"
+  },
+  "categories": [
+    "人物採訪類",
+    "廣告 TVC 類",
+    "企業宣傳片類",
+    "動畫類",
+    "科普類",
+    "人物口播類",
+    "劇情類",
+    "旅行 Vlog 類"
+  ],
+  "works": [
+    {
+      "id": "national-year-end",
+      "title": "國家政務｜年終影片",
+      "category": "動畫類",
+      "description": "",
+      "duration": "1:29",
+      "featured": false,
+      "cover": "./national-year-end.jpg",
+      "videoUrl": "https://github.com/chansong330-cell/portfolio/releases/download/videos-v1/national-year-end.mp4"
+    }
+  ]
+}
