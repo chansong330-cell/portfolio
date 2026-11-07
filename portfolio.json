@@ -21,14 +21,174 @@
   ],
   "works": [
     {
+      "id": "interview-ceo",
+      "title": "「霸總」專訪",
+      "category": "人物採訪類",
+      "description": "",
+      "duration": "2:09",
+      "featured": false,
+      "cover": "./covers/interview-ceo.jpg",
+      "videoUrl": "https://github.com/chansong330-cell/portfolio/releases/download/videos-v1/interview-ceo.mp4"
+    },
+    {
+      "id": "tvc-borgward",
+      "title": "汽車廣告｜寶沃",
+      "category": "廣告 TVC 類",
+      "description": "",
+      "duration": "1:08",
+      "featured": false,
+      "cover": "./covers/tvc-borgward.jpg",
+      "videoUrl": "https://github.com/chansong330-cell/portfolio/releases/download/videos-v1/tvc-borgward.mp4"
+    },
+    {
+      "id": "tvc-aomygod",
+      "title": "潮流合夥人 TVC｜奧買家（導演版）",
+      "category": "廣告 TVC 類",
+      "description": "",
+      "duration": "0:16",
+      "featured": false,
+      "cover": "./covers/tvc-aomygod.jpg",
+      "videoUrl": "https://github.com/chansong330-cell/portfolio/releases/download/videos-v1/tvc-aomygod.mp4"
+    },
+    {
+      "id": "tvc-beauty",
+      "title": "美妝廣告｜紫蘇水",
+      "category": "廣告 TVC 類",
+      "description": "",
+      "duration": "0:35",
+      "featured": false,
+      "cover": "./covers/tvc-beauty.jpg",
+      "videoUrl": "https://github.com/chansong330-cell/portfolio/releases/download/videos-v1/tvc-beauty.mp4"
+    },
+    {
+      "id": "corporate-kunlun",
+      "title": "企業宣傳片｜崑崙",
+      "category": "企業宣傳片類",
+      "description": "",
+      "duration": "2:39",
+      "featured": false,
+      "cover": "./covers/corporate-kunlun.jpg",
+      "videoUrl": "https://github.com/chansong330-cell/portfolio/releases/download/videos-v1/corporate-kunlun.mp4"
+    },
+    {
+      "id": "mg-konka",
+      "title": "MG 動畫｜康佳防疫科普",
+      "category": "動畫類",
+      "description": "",
+      "duration": "1:00",
+      "featured": false,
+      "cover": "./covers/mg-konka.jpg",
+      "videoUrl": "https://github.com/chansong330-cell/portfolio/releases/download/videos-v1/mg-konka.mp4"
+    },
+    {
+      "id": "animation-carlsberg",
+      "title": "嘉士伯渠道影片",
+      "category": "動畫類",
+      "description": "",
+      "duration": "2:39",
+      "featured": false,
+      "cover": "./covers/animation-carlsberg.jpg",
+      "videoUrl": "https://github.com/chansong330-cell/portfolio/releases/download/videos-v1/animation-carlsberg.mp4"
+    },
+    {
+      "id": "animation-wecom",
+      "title": "企業微信",
+      "category": "動畫類",
+      "description": "",
+      "duration": "1:07",
+      "featured": false,
+      "cover": "./covers/animation-wecom.jpg",
+      "videoUrl": "https://github.com/chansong330-cell/portfolio/releases/download/videos-v1/animation-wecom.mp4"
+    },
+    {
       "id": "national-year-end",
       "title": "國家政務｜年終影片",
       "category": "動畫類",
       "description": "",
       "duration": "1:29",
       "featured": false,
-      "cover": "./national-year-end.jpg",
+      "cover": "./covers/national-year-end.jpg",
       "videoUrl": "https://github.com/chansong330-cell/portfolio/releases/download/videos-v1/national-year-end.mp4"
+    },
+    {
+      "id": "animation-baidu",
+      "title": "百度智能雲｜工業視覺技術",
+      "category": "動畫類",
+      "description": "",
+      "duration": "2:09",
+      "featured": false,
+      "cover": "./covers/animation-baidu.jpg",
+      "videoUrl": "https://github.com/chansong330-cell/portfolio/releases/download/videos-v1/animation-baidu.mp4"
+    },
+    {
+      "id": "science-tsmc",
+      "title": "得不到就摧毀？獲得台積電真能讓我們彎道超車？",
+      "category": "科普類",
+      "description": "",
+      "duration": "7:40",
+      "featured": false,
+      "cover": "./covers/science-tsmc.jpg",
+      "videoUrl": "https://github.com/chansong330-cell/portfolio/releases/download/videos-v1/science-tsmc.mp4"
+    },
+    {
+      "id": "film-dumplings",
+      "title": "微電影廣告｜年跡《爸爸的餃子》",
+      "category": "劇情類",
+      "description": "",
+      "duration": "7:49",
+      "featured": false,
+      "cover": "./covers/film-dumplings.jpg",
+      "videoUrl": "https://github.com/chansong330-cell/portfolio/releases/download/videos-v1/film-dumplings.mp4"
+    },
+    {
+      "id": "film-volkswagen",
+      "title": "微電影廣告｜大眾汽車",
+      "category": "劇情類",
+      "description": "",
+      "duration": "5:56",
+      "featured": false,
+      "cover": "./covers/film-volkswagen.jpg",
+      "videoUrl": "https://github.com/chansong330-cell/portfolio/releases/download/videos-v1/film-volkswagen.mp4"
+    },
+    {
+      "id": "travel-teriberka",
+      "title": "捷里別爾卡",
+      "category": "旅行 Vlog 類",
+      "description": "",
+      "duration": "1:20",
+      "featured": false,
+      "cover": "./covers/travel-teriberka.jpg",
+      "videoUrl": "https://github.com/chansong330-cell/portfolio/releases/download/videos-v1/travel-teriberka.mp4"
+    },
+    {
+      "id": "travel-aurora",
+      "title": "摩爾曼斯克追極光",
+      "category": "旅行 Vlog 類",
+      "description": "",
+      "duration": "1:39",
+      "featured": false,
+      "cover": "./covers/travel-aurora.jpg",
+      "videoUrl": "https://github.com/chansong330-cell/portfolio/releases/download/videos-v1/travel-aurora.mp4"
+    },
+    {
+      "id": "travel-moscow",
+      "title": "莫斯科",
+      "category": "旅行 Vlog 類",
+      "description": "",
+      "duration": "18:45",
+      "featured": false,
+      "cover": "./covers/travel-moscow.jpg",
+      "videoUrl": "https://github.com/chansong330-cell/portfolio/releases/download/videos-v1/travel-moscow.mp4"
+    },
+    {
+      "id": "travel-tom-bear",
+      "title": "莫斯科 Tom 熊",
+      "category": "旅行 Vlog 類",
+      "description": "",
+      "duration": "2:49",
+      "featured": false,
+      "cover": "./covers/travel-tom-bear.jpg",
+      "videoUrl": "https://github.com/chansong330-cell/portfolio/releases/download/videos-v1/travel-tom-bear.mp4"
     }
   ]
 }

@@ -4,7 +4,7 @@
 
 - 網頁：GitHub Pages，`main` 分支的根目錄。
 - 影片：只放 Releases 附件，不提交到程式碼倉庫。
-- 初始影片：`videos-v1` Release 的 `national-year-end.mp4`。
+- 17 支影片：統一存放於 `videos-v1` Release，MP4 H.264／AAC，支援網頁直接播放。
 - 網站資料：`portfolio.json`。
 
 ## 更新作品
@@ -25,4 +25,4 @@ Settings → Pages → Deploy from a branch → main → /(root) → Save。
 
 使用 HTML5 影片播放器，點擊作品後才載入影片，支援 `?work=作品id` 分享連結。Releases 並非具有影片串流 SLA 的服務，播放與拖曳效果需要實測。GitHub Pages 與 Releases 在中國大陸的可達性不能保證。
 
-現有「闖俄記 莫斯科篇」只有 YouTube 網址，尚未遷移；需要原始影片檔後才能建立 Releases 附件，這份網站未冒用其他影片替代。
+17 支影片均已從原始作品集資料夾轉檔、壓縮或重新封裝。上傳後核對檔案大小與 SHA-256；原始檔案未修改。
