@@ -1,0 +1,16 @@
+name: Assemble and verify portfolio videos
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assemble uploaded parts, verify complete files, then clean temporary parts
+        run: python3 .github/scripts/assemble-videos.py
